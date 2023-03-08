@@ -31,6 +31,18 @@ dependencies:
   flutter:
     sdk: flutter
 
+
+  get_it: ^7.2.0  #Service locator : Dependency Injection
+  injectable: ^2.1.0 #Generates code for us by providing annotations we can use
+  flutter_bloc: ^8.1.1  #State management
+  equatable: ^2.0.5  #Value equality
+  dartz: ^0.10.1  #Functional programming, eg Either to return Success / Failure
+
+  #API
+  connectivity: ^3.0.6
+  http: ^0.13.5
+  internet_connection_checker: ^0.0.1+2   #replace the older data_connection_checker
+
   data:
     path: ./data/
   domain:
@@ -50,6 +62,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  mockito: ^5.0.16
+  build_runner: ^2.1.2
+  injectable_generator: ^2.1.4
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
